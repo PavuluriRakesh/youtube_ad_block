@@ -49,7 +49,7 @@ def main() -> int:
 
     # Load the block list to a newline-seperated list
     entries = []
-    with open("blocklist.txt", "r") as fp:
+    with open("blocklist_new.txt", "r") as fp:
         entries = fp.read().split("\n")
         fp.close()
 
